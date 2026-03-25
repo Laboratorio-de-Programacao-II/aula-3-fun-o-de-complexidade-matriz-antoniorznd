@@ -1,8 +1,18 @@
 #include <stdio.h>
 
 int conta_pares(int n, int mat[][n]) {
-    /* TODO: Implemente esta função.
-     * Para verificar se um número é par, use a expressão (x % 2 == 0) */
+int count = 0;
+int x = 0;
+for (int j = 0; j<=x; j++){
+for (int i = 0; i<=x; i++){
+if (mat[i][j]%2 == 0){
+count ++;
+}
+    x++;
+if (x>=n){
+return count;
+}
+}}
 }
 
 int main() {
