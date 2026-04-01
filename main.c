@@ -2,17 +2,13 @@
 
 int conta_pares(int n, int mat[][n]) {
 int count = 0;
-int x = 0;
-for (int j = 0; j<=x; j++){
-for (int i = 0; i<=x; i++){
+for (int i = 0; i<=n; i++){
+for (int j = 0; j<=i; j++){
 if (mat[i][j]%2 == 0){
 count ++;
 }
-    x++;
-if (x>=n){
-return count;
-}
 }}
+return count;
 }
 
 int main() {
