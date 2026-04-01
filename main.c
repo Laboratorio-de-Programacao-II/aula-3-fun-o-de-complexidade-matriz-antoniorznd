@@ -2,7 +2,7 @@
 
 int conta_pares(int n, int mat[][n]) {
 int count = 0;
-for (int i = 0; i<=n; i++){
+for (int i = 0; i<n; i++){
 for (int j = 0; j<=i; j++){
 if (mat[i][j]%2 == 0){
 count ++;
